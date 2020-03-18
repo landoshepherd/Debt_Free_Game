@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.cpp
+iostream
+-
+iomanip
+-
+engine.hpp
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.hpp
+string
+-
+
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.hpp
+string
+-
+
