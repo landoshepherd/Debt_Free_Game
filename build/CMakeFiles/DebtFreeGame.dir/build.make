@@ -57,9 +57,22 @@ include CMakeFiles/DebtFreeGame.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DebtFreeGame.dir/flags.make
 
+CMakeFiles/DebtFreeGame.dir/src/account/account.o: CMakeFiles/DebtFreeGame.dir/flags.make
+CMakeFiles/DebtFreeGame.dir/src/account/account.o: ../src/account/account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DebtFreeGame.dir/src/account/account.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DebtFreeGame.dir/src/account/account.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.cpp
+
+CMakeFiles/DebtFreeGame.dir/src/account/account.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DebtFreeGame.dir/src/account/account.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.cpp > CMakeFiles/DebtFreeGame.dir/src/account/account.i
+
+CMakeFiles/DebtFreeGame.dir/src/account/account.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DebtFreeGame.dir/src/account/account.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.cpp -o CMakeFiles/DebtFreeGame.dir/src/account/account.s
+
 CMakeFiles/DebtFreeGame.dir/src/engine/engine.o: CMakeFiles/DebtFreeGame.dir/flags.make
 CMakeFiles/DebtFreeGame.dir/src/engine/engine.o: ../src/engine/engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DebtFreeGame.dir/src/engine/engine.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DebtFreeGame.dir/src/engine/engine.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DebtFreeGame.dir/src/engine/engine.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.cpp
 
 CMakeFiles/DebtFreeGame.dir/src/engine/engine.i: cmake_force
@@ -70,9 +83,22 @@ CMakeFiles/DebtFreeGame.dir/src/engine/engine.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DebtFreeGame.dir/src/engine/engine.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.cpp -o CMakeFiles/DebtFreeGame.dir/src/engine/engine.s
 
+CMakeFiles/DebtFreeGame.dir/src/player/player.o: CMakeFiles/DebtFreeGame.dir/flags.make
+CMakeFiles/DebtFreeGame.dir/src/player/player.o: ../src/player/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DebtFreeGame.dir/src/player/player.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DebtFreeGame.dir/src/player/player.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/player/player.cpp
+
+CMakeFiles/DebtFreeGame.dir/src/player/player.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DebtFreeGame.dir/src/player/player.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/player/player.cpp > CMakeFiles/DebtFreeGame.dir/src/player/player.i
+
+CMakeFiles/DebtFreeGame.dir/src/player/player.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DebtFreeGame.dir/src/player/player.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/player/player.cpp -o CMakeFiles/DebtFreeGame.dir/src/player/player.s
+
 CMakeFiles/DebtFreeGame.dir/src/main.o: CMakeFiles/DebtFreeGame.dir/flags.make
 CMakeFiles/DebtFreeGame.dir/src/main.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DebtFreeGame.dir/src/main.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DebtFreeGame.dir/src/main.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DebtFreeGame.dir/src/main.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/main.cpp
 
 CMakeFiles/DebtFreeGame.dir/src/main.i: cmake_force
@@ -85,17 +111,21 @@ CMakeFiles/DebtFreeGame.dir/src/main.s: cmake_force
 
 # Object files for target DebtFreeGame
 DebtFreeGame_OBJECTS = \
+"CMakeFiles/DebtFreeGame.dir/src/account/account.o" \
 "CMakeFiles/DebtFreeGame.dir/src/engine/engine.o" \
+"CMakeFiles/DebtFreeGame.dir/src/player/player.o" \
 "CMakeFiles/DebtFreeGame.dir/src/main.o"
 
 # External object files for target DebtFreeGame
 DebtFreeGame_EXTERNAL_OBJECTS =
 
+DebtFreeGame: CMakeFiles/DebtFreeGame.dir/src/account/account.o
 DebtFreeGame: CMakeFiles/DebtFreeGame.dir/src/engine/engine.o
+DebtFreeGame: CMakeFiles/DebtFreeGame.dir/src/player/player.o
 DebtFreeGame: CMakeFiles/DebtFreeGame.dir/src/main.o
 DebtFreeGame: CMakeFiles/DebtFreeGame.dir/build.make
 DebtFreeGame: CMakeFiles/DebtFreeGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DebtFreeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DebtFreeGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DebtFreeGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

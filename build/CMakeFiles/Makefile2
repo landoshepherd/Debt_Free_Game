@@ -74,12 +74,12 @@ clean: CMakeFiles/DebtFreeGame.dir/clean
 CMakeFiles/DebtFreeGame.dir/all:
 	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/depend
 	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=1,2,3 "Built target DebtFreeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target DebtFreeGame"
 .PHONY : CMakeFiles/DebtFreeGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DebtFreeGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DebtFreeGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/landoshepherd/Documents/Projects/Debt_Free_Game/build/CMakeFiles 0
 .PHONY : CMakeFiles/DebtFreeGame.dir/rule

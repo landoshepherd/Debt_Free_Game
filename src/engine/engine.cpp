@@ -11,9 +11,9 @@
 #include "engine.hpp"
 #include <string>
 
-Engine::Engine()
+Engine::Engine():
+	m_player()
 {
-	//Do nothing
 }
 
 Engine::~Engine()
@@ -21,6 +21,26 @@ Engine::~Engine()
 	//Do nothing
 }
 
+void Engine::initializePlayer()
+{
+	m_player.updateJobTitle("Engineer"); //Job titles will be random
+	m_player.updateSalary(82000); //Based on the job title
+	std::shared_ptr<Account> savingsAcct(new Account);
+	savingsAcct->setAcctName("Savings");
+	savingsAcct->updateBalance(100);
+	m_player.addSavingsAccount(savingsAcct);
+}
+
+int Engine::calculateTotalPlayerSavings()
+{
+	size_t numOfSavingsAccounts = m_player.getSavingsAccts().size();
+	int totalSavings = 0;
+	for(size_t i = 0; i < numOfSavingsAccounts; ++i)
+	{
+		totalSavings += m_player.getSavingsAccts()[i]->getAcctBalance();
+	}
+	return totalSavings;
+}
 bool Engine::validMainMenuInput(std::string& userInput)
 {
 	std::string possibleChoices("ABC");
@@ -57,9 +77,10 @@ bool Engine::validGameplayInput(std::string& userInput)
 
 void Engine::printGameDashboard()
 {
-	std::cout << "Total Income:   $" << std::setw(10) << std::left << 0 << "Total Savings: $" << 0 << std::setw(10) << std::endl;;
-	std::cout << "Total Expenses: $" << std::setw(10) << std::left << 0 << "Total Debt: $" << 0 << std::setw(10) << std::endl;
-	std::cout << "Total Cashflow: $" << std::setw(10) << std::left << 0 << "Total Networth: $" << 0 << std::setw(10) << std::endl;
+	std::cout << "Total Income:   $" << std::setw(10) << std::left << m_player.getSalary()
+	 << "Total Savings:   $" << calculateTotalPlayerSavings() << std::endl;;
+	std::cout << "Total Expenses: $" << std::setw(10) << std::left << 0 << "Total Debt:      $" << 0 << std::endl;
+	std::cout << "Total Cashflow: $" << std::setw(10) << std::left << 0 << "Total Networth:  $" << 0 << std::endl;
 	
 	std::cout << std::endl;
 	std::cout << std::setw(29) << std::right << "Baby Steps" << std::endl;
@@ -168,6 +189,7 @@ void Engine::startGameEngine()
 		{
 			if (userInput == "A")
 			{
+				initializePlayer();
 				mainGameLoop();
 			}
 			else if (userInput == "B")

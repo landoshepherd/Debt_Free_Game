@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.hpp
+string
+-
+
 /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.cpp
 iostream
 -
@@ -19,4 +23,18 @@ string
 /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.hpp
 string
 -
+../account/account.hpp
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.hpp
+../player/player.hpp
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/player/player.hpp
+
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/player/player.hpp
+memory
+-
+string
+-
+vector
+-
+../account/account.hpp
+/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.hpp
 

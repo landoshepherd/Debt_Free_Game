@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/landoshepherd/Documents/Projects/Debt_Free_Game  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/DebtFreeGame.dir/src/account/account.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.cpp",
+  "file": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/account/account.cpp"
+},
+{
+  "directory": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/landoshepherd/Documents/Projects/Debt_Free_Game  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/DebtFreeGame.dir/src/engine/engine.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.cpp",
+  "file": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/engine/engine.cpp"
+},
+{
+  "directory": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/landoshepherd/Documents/Projects/Debt_Free_Game  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/DebtFreeGame.dir/src/player/player.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/player/player.cpp",
+  "file": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/player/player.cpp"
+},
+{
+  "directory": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/landoshepherd/Documents/Projects/Debt_Free_Game  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/DebtFreeGame.dir/src/main.o -c /Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/main.cpp",
+  "file": "/Users/landoshepherd/Documents/Projects/Debt_Free_Game/src/main.cpp"
+}
+]

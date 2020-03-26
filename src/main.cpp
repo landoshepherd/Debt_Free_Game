@@ -10,7 +10,8 @@
 #include <string>
 #include "engine/engine.hpp"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) 
+{
 	Engine engine;
 	engine.startGameEngine();
 	return 0;

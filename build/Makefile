@@ -124,6 +124,21 @@ DebtFreeGame/fast:
 .PHONY : DebtFreeGame/fast
 
 # target to build an object file
+src/account/account.o:
+	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/account/account.o
+.PHONY : src/account/account.o
+
+# target to preprocess a source file
+src/account/account.i:
+	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/account/account.i
+.PHONY : src/account/account.i
+
+# target to generate assembly for a file
+src/account/account.s:
+	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/account/account.s
+.PHONY : src/account/account.s
+
+# target to build an object file
 src/engine/engine.o:
 	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/engine/engine.o
 .PHONY : src/engine/engine.o
@@ -153,6 +168,21 @@ src/main.s:
 	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/main.s
 .PHONY : src/main.s
 
+# target to build an object file
+src/player/player.o:
+	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/player/player.o
+.PHONY : src/player/player.o
+
+# target to preprocess a source file
+src/player/player.i:
+	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/player/player.i
+.PHONY : src/player/player.i
+
+# target to generate assembly for a file
+src/player/player.s:
+	$(MAKE) -f CMakeFiles/DebtFreeGame.dir/build.make CMakeFiles/DebtFreeGame.dir/src/player/player.s
+.PHONY : src/player/player.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,12 +192,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DebtFreeGame"
+	@echo "... src/account/account.o"
+	@echo "... src/account/account.i"
+	@echo "... src/account/account.s"
 	@echo "... src/engine/engine.o"
 	@echo "... src/engine/engine.i"
 	@echo "... src/engine/engine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/player/player.o"
+	@echo "... src/player/player.i"
+	@echo "... src/player/player.s"
 .PHONY : help
 
 

@@ -16,7 +16,7 @@ class Account
 public:
 	
 	//! Default Constructor
-	Account() = default;
+	Account();
 
 	/*!
 		Constructor that takes account name and starting balance
@@ -27,7 +27,7 @@ public:
 	Account(std::string& p_acctName, double& p_balance);
 
 	//! Default Destructor
-	~Account() = default;
+	~Account();
 
 	/*!
 		Takes in an amount and adds to account balance.
@@ -41,7 +41,7 @@ public:
 
 		\param[in] p_amount amount of funds to withdraw from account balance.
 	*/
-	void withdraw(double& p_amount);
+	void withdraw(const double& p_amount);
 
 	/*!
 		Transfers funds from one account to another.
@@ -49,12 +49,16 @@ public:
 		param[in] p_amount the amount of funds to transfer
 		param[in] p_toAcct the account to receive the funds.
 	*/
-	void transferFunds(double& p_amount, Account& p_toAcct);
+	void transferFunds(const double& p_amount, Account& p_toAcct);
+
+	void updateBalance(const double& newBalance);
 
 	/*!
 		Returns current account balance.
 	*/
 	double getAcctBalance();
+
+	void setAcctName(const std::string& p_acctName);
 
 	/*!
 		Returns account name;

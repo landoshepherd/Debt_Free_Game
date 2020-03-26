@@ -10,13 +10,18 @@
 #define engine_hpp
 
 #include <string>
+#include "../account/account.hpp"
+#include "../player/player.hpp"
 
 //class Player;
 class Engine
 {
+	//Functions for main dashboard operations
 	public:
 		Engine();
 		~Engine();
+		void initializePlayer();
+		int calculateTotalPlayerSavings();
 		bool validMainMenuInput(std::string& userInput);
 		bool validGameplayInput(std::string& userInput);
 		void printGameDashboard();
@@ -28,8 +33,9 @@ class Engine
 		void printIncomeData();
 		bool validIncomeDetailInput(std::string& userInput);
 		void launchIncomeDetail();
+
 	private:
-		//Player m_player;
+		Player m_player;
 };
 	
 #endif /* engine_hpp */

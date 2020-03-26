@@ -5,14 +5,17 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/local/Cellar/gcc@6/6.5.0_2/include/c++/6.5.0/",
-                "/usr/local/Cellar/gcc@6/6.5.0_2/include/c++/6.5.0/x86_64-apple-darwin18.5.0"
+                "/usr/local/Cellar/gcc@6/6.5.0_2/include/c++/6.5.0/x86_64-apple-darwin18.5.0",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/src"
             ],
             "defines": [],
             "macFrameworkPath": [],
             "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "${default}"
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "vector-of-bool.cmake-tools"
         }
     ],
     "version": 4
